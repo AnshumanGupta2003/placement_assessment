@@ -1,0 +1,42 @@
+main div {
+    background-color: #f0f0f0; /* Set your desired grey color */
+}
+header {
+    background-color: #0078d4; /* Microsoft Blue */
+    color: #ffffff; /* White */
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #f0f0f0; /* Light Grey */
+    color: #333; /* Dark Grey */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Border between header and navigation */
+}
+
+nav a {
+    color: #333; /* Dark Grey */
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #ddd; /* Light Grey on hover */
+}
+main {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
